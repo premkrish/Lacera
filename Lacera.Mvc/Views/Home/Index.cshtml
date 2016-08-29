@@ -1,0 +1,76 @@
+﻿@model IEnumerable<Lacera.Objects.Models.Employee>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Lacera Parser</title>
+    <style>        
+        table {
+            border-collapse: collapse;
+            width: auto;
+            border: 1px solid black;
+        }
+        
+        th, td {
+            padding: 15px;
+            text-align: left;
+             border: 1px solid black;
+        }
+
+        th {
+            background-color: #025253;
+            color:#ffffff;
+        }
+
+        tr:nth-child(even) {background-color: #f2f2f2}
+    </style>
+</head>
+<body>
+    <img src="http://lacera.com/home/homeart/logo_home_lacera.jpg" alt="Lacera">
+    <table class="table">
+        <tr>
+            <th> 
+                @Html.DisplayNameFor(model => model.EmployeeName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BirthDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Salary)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateHired)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmployeeName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BirthDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Salary)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateHired)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+        </tr>
+    }
+    
+    </table>
+</body>
+</html>

@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lacera.Parser", "Lacera.Parser\Lacera.Parser.csproj", "{8B54F574-05E1-459E-B907-3B3F45C15F0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lacera.Enums", "Lacera.Enums\Lacera.Enums.csproj", "{A11682F2-0648-4B02-A060-B9DBB48FB74D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lacera.Helper", "Lacera.Helper\Lacera.Helper.csproj", "{77056E03-E20D-49B5-8C37-061D01D0B3D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lacera.Objects", "Lacera.Objects\Lacera.Objects.csproj", "{09C1D75F-42AB-4DB4-AE46-DE8B6952891D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lacera.Parser.Test", "Lacera.Parser.Test\Lacera.Parser.Test.csproj", "{9973B7C1-390F-4257-AEDD-18F5E9F09C89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lacera.ConsoleApp", "Lacera.ConsoleApp\Lacera.ConsoleApp.csproj", "{D85B4785-D0E0-42DD-83F4-755CA0270A8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lacera.Mvc", "Lacera.Mvc\Lacera.Mvc.csproj", "{7243FD3C-0A62-432B-A8BB-704572A2AFFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B54F574-05E1-459E-B907-3B3F45C15F0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B54F574-05E1-459E-B907-3B3F45C15F0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B54F574-05E1-459E-B907-3B3F45C15F0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B54F574-05E1-459E-B907-3B3F45C15F0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A11682F2-0648-4B02-A060-B9DBB48FB74D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A11682F2-0648-4B02-A060-B9DBB48FB74D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A11682F2-0648-4B02-A060-B9DBB48FB74D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A11682F2-0648-4B02-A060-B9DBB48FB74D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77056E03-E20D-49B5-8C37-061D01D0B3D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77056E03-E20D-49B5-8C37-061D01D0B3D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77056E03-E20D-49B5-8C37-061D01D0B3D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77056E03-E20D-49B5-8C37-061D01D0B3D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09C1D75F-42AB-4DB4-AE46-DE8B6952891D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09C1D75F-42AB-4DB4-AE46-DE8B6952891D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09C1D75F-42AB-4DB4-AE46-DE8B6952891D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09C1D75F-42AB-4DB4-AE46-DE8B6952891D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9973B7C1-390F-4257-AEDD-18F5E9F09C89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9973B7C1-390F-4257-AEDD-18F5E9F09C89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9973B7C1-390F-4257-AEDD-18F5E9F09C89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9973B7C1-390F-4257-AEDD-18F5E9F09C89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D85B4785-D0E0-42DD-83F4-755CA0270A8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D85B4785-D0E0-42DD-83F4-755CA0270A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D85B4785-D0E0-42DD-83F4-755CA0270A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D85B4785-D0E0-42DD-83F4-755CA0270A8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7243FD3C-0A62-432B-A8BB-704572A2AFFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7243FD3C-0A62-432B-A8BB-704572A2AFFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7243FD3C-0A62-432B-A8BB-704572A2AFFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7243FD3C-0A62-432B-A8BB-704572A2AFFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
